@@ -9,11 +9,9 @@ public class Main {
         double b = sc.nextDouble();
         double a = sc.nextDouble();
 
-        if (Utils.checkValue(b) && Utils.checkValue(a)) {
-            System.out.println(c);
-            System.out.println(Utils.round(b));
-            System.out.println(Utils.round(a));
-        }
+        System.out.println(c);
+        System.out.println(Utils.round(b));
+        System.out.println(Utils.round(a));
 
     }
 }
