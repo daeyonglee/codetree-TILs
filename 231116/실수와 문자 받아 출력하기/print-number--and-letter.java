@@ -10,21 +10,6 @@ public class Main {
         double a = sc.nextDouble();
 
         System.out.println(c);
-        System.out.println(Utils.round(b));
-        System.out.println(Utils.round(a));
-
-    }
-}
-
-class Utils {
-    public static Boolean checkValue(double d) {
-        if (d >= 1 && d <= 1000) {
-            return true;
-        }
-        return false;
-    }
-
-    public static Double round(double d) {
-        return Math.round(d * 100) / 100.0;
+        System.out.printf("%.2f\n%.2f", b,a);
     }
 }
