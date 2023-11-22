@@ -11,8 +11,10 @@ public class Main {
             System.out.println("John");
         } else if (a == 2) {
             System.out.println("Tom");
-        } else {
+        } else if (a == 3) {
             System.out.println("Paul");
+        } else {
+            System.out.println("Vacancy");
         }
     }
 }
