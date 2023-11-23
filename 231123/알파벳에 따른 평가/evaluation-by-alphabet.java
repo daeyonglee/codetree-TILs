@@ -6,7 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
 
-        if (a.equals('S')) {
+        if (a.equals("S")) {
             System.out.println("Superior");
         } else if (a.equals("A")) {
             System.out.println("Excellent");
