@@ -13,6 +13,8 @@ public class Main {
             if (a >= 1.0f && b >= 1.0f) {
                 System.out.println("High");
             } else if (a >= 0.5f && b >= 0.5f) {
+                System.out.println("Middle");
+            } else {
                 System.out.println("Low");
             }
         } catch (Exception e) {
