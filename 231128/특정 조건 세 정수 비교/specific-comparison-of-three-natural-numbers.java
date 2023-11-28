@@ -12,7 +12,7 @@ public class Main {
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
             int c = Integer.parseInt(st.nextToken());
-            System.out.printf("%d %d", a > b && a > c ? 1 : 0, a == b && a == c ? 1 : 0);
+            System.out.printf("%d %d", a < b && a < c ? 1 : 0, a == b && a == c ? 1 : 0);
         } catch (Exception e) {
 
         }
