@@ -13,8 +13,12 @@ public class Main {
                 System.out.println(100000);
             } else if(b >= 90) {
                 System.out.println(500000);
-            } 
+            } else {
+                System.out.println(0);
+            }
+        } else {
+            System.out.println(0);
         }
-        System.out.println(0);
+        
     }
 }
