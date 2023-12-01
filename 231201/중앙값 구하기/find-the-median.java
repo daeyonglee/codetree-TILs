@@ -16,20 +16,14 @@ public class Main {
   }
 
   public static int[] sort(int[] arr) {
-    int[] tempArr = {-101, -101, -101};
+    int[] tempArr = arr;
 
     for (int i = 0; i < arr.length; i++) {
-      if (tempArr[0] == -101) {
-        tempArr[0] = arr[0];
-        continue;
-      }
-
       for (int j = 0; j <= i-1; j++) {
-        int a = tempArr[j];
         if(tempArr[j] < arr[i]) {
+          int a = tempArr[j];
           tempArr[j] = arr[i];
-          tempArr[j+1] = a;
-          break;
+          tempArr[i] = a;
         }
       }
     }
