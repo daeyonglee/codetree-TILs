@@ -16,10 +16,10 @@ public class Main {
   }
 
   public static int[] sort(int[] arr) {
-    int[] tempArr = {0, 0, 0};
+    int[] tempArr = {-101, -101, -101};
 
     for (int i = 0; i < arr.length; i++) {
-      if (tempArr[0] == 0) {
+      if (tempArr[0] == -101) {
         tempArr[0] = arr[0];
         continue;
       }
@@ -30,7 +30,7 @@ public class Main {
           tempArr[j] = arr[i];
           tempArr[j+1] = a;
           break;
-        } 
+        }
       }
     }
 
