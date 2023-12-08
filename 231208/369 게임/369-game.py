@@ -5,8 +5,7 @@
 
 
 def isIncludeThreeSixNine(value):
-    index = str(i).find("3") or str(i).find("6") or str(i).find("9")
-    if index != -1:
+    if str(value).find("3") != -1 or str(value).find("6") != -1 or str(value).find("9") != -1:
         return True
     return False
 
