@@ -5,5 +5,5 @@ if c == "A":
     for i in range(1, n+1):
         print(i, end=" ")
 if c == "D":
-    for j in range(n, 1, -1):
+    for j in range(n, 0, -1):
         print(j, end=" ")
