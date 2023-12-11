@@ -4,7 +4,7 @@ inside_clean = 0
 center_clean = 0
 toilet_clean = 0
 
-for i in range(n):
+for i in range(n+1):
     if i == 0:
         continue
     
